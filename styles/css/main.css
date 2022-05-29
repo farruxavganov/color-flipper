@@ -58,7 +58,46 @@ body {
   text-transform: capitalize;
 }
 .navbar__link.active {
-  color: darkcyan;
+  color: dodgerblue;
+}
+
+.main__contents {
+  display: flex;
+  align-items: center;
+  background: black;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.main__title {
+  color: #fff;
+  margin-right: 5px;
+}
+
+.main__color {
+  display: inline-block;
+  color: dodgerblue;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  outline: none;
+  padding: 7px;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn:hover {
+  background: black;
+  color: #fff;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
